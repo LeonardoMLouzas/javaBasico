@@ -9,15 +9,21 @@ public class Atividade02 {
 	public static void main(String[] Args) {
 		Scanner leia = new Scanner(System.in);
 
-		String user = "";
-		String senha = "";
+		int user = 0;
+		int senha = 0;
 
 		do {
 
 			System.out.println("Digite o seu usuário: ");
-			user = leia.nextLine();
+			user = leia.nextInt();
 			System.out.println("Digite sua senha: ");
-			senha = leia.next();
+			senha = leia.nextInt();
+
+			if (user == senha) {
+				System.out.println("Usuário e senha não podem ser iguais.");
+			} else {
+				System.out.println("Logado com sucesso.");
+			}
 		} while (user == senha);
 	}
 }

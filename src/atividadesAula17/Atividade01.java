@@ -2,8 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-// Faça um programa que peça uma nota, entre zero e dez.
-// Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+// Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
 public class Atividade01 {
 
@@ -19,6 +18,7 @@ public class Atividade01 {
 			System.out.println("Valor inválido. Tente novamente: ");
 			nota = leia.nextInt();
 		}
+
 		System.out.println("nota digitada: " + nota);
 	}
 }

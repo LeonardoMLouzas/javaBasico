@@ -3,7 +3,7 @@ package atividadesAula17;
 import java.util.Scanner;
 
 // Faça um programa que leia e valide as seguintes informações: 
-// a: Nome maior que 3 caracteres
+// a: Nome maior que 2 caracteres
 // b: Idade entre 0 e 150
 // c: Salário maior que 0
 // d: Sexo 'f' ou 'm'
@@ -27,24 +27,26 @@ public class Atividade03 {
 			 nome = leia.nextLine();
 		 }
 		
-		 while (idade > 150 || idade < 0) {
+		 while (idade > 150 || idade <= 0) {
 			 
-			 System.out.println("Digite sua idade (150>idade<0): ");
+			 System.out.println("Digite sua idade (150 > idade < 0): ");
 			 idade = leia.nextInt();
 		 }
 		 
-		 while (salario < 0) {
+		 while (salario <= 0) {
 			 
-			 System.out.println("Digite seu salário (salario<0): ");
+			 System.out.println("Digite seu salário (salario < 0): ");
 			 salario = leia.nextDouble();
 		 }
 		 
+		 //Método quebrado devido ao caractere de retorno.
 		 while (sexo != "f" || sexo != "m") {
 			 
 			 System.out.println("Digite seu sexo (f ou m): ");
-			 sexo = leia.nextLine();
+			 sexo = leia.next();
 		 }
 		 
+		 //Método quebrado devido ao caractere de retorno.
 		 while (relacao != "s" || relacao != "c" || relacao != "v" || relacao != "d") {
 			 
 			 System.out.println("Digite seu estado civil (s, c, v ou d): ");

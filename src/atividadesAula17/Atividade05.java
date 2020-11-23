@@ -47,6 +47,7 @@ public class Atividade05 {
 				System.out.println("Total da população B: " + popB);
 			}
 		}
+		
 		System.out.println("Você escolheu sair.");
 	}
 }

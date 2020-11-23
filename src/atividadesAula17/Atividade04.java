@@ -16,6 +16,7 @@ public class Atividade04 {
 			popB += (popB / 100) * 1.5;
 			anos++;
 		}
+		
 		System.out.println("Total de anos para a população A alcançar a população B: " + anos);
 		System.out.println("Total da população A: " + popA);
 		System.out.println("Total da população B: " + popB);

@@ -13,7 +13,7 @@ public class Atividade06 {
 
 		while (escolha != 0) {
 
-			System.out.println("Digite 1 para um abaixo do outro, 2 para um ao lado do outro e 0 para sair.");
+			System.out.println("Digite 1 para um número abaixo do outro, 2 para um número ao lado do outro e 0 para sair.");
 			escolha = leia.nextByte();
 
 			if (escolha == 1) {
@@ -26,9 +26,11 @@ public class Atividade06 {
 
 					System.out.print(i + " ");
 				}
+				
 				System.out.println("");
 			} else {
-				System.out.println("Você escolheu sair.");
+				
+				System.out.println("Você escolheu sair.");			
 			}
 		}
 	}
