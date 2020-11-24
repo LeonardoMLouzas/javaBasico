@@ -21,10 +21,13 @@ public class Atividade05 {
 
 		if (nota1 == 10) {
 			System.out.println("Perfeito. Média: " + nota1);
+			
 		} else if (nota1 >= 7) {
 			System.out.println("Aprovado. Média: " + nota1);
+			
 		} else {
 			System.out.println("Reprovado. Média: " + nota1);
+			
 		}
 	}
 }

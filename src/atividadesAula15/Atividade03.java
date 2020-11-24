@@ -11,19 +11,22 @@ public class Atividade03 {
 		Scanner leia = new Scanner(System.in);
 
 		System.out.println("Digite seu sexo (F ou M): ");
-		String sexo = leia.nextLine();
+		String sexo = leia.next();
 
 		switch (sexo) {
 
 		case "F":
 			System.out.println("F - Feminino.");
 			break;
+			
 		case "M":
 			System.out.println("M - Masculino.");
 			break;
+			
 		default:
 			System.out.println("Sexo inválido.");
 			break;
+			
 		}
 	}
 }

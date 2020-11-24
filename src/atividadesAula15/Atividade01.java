@@ -18,11 +18,13 @@ public class Atividade01 {
 
 		if (num > num2) {
 			System.out.println("O maior número é: " + num);
+			
 		} else if (num2 > num) {
 			System.out.println("O maior número é: " + num2);
+			
 		} else {
 			System.out.println("Os números são iguais.");
+			
 		}
 	}
-
 }

@@ -16,18 +16,16 @@ public class Atividade04 {
 		switch (letra) {
 
 		case "a":
-
 		case "e":
-
 		case "i":
-
 		case "o":
-
 		case "u":
 			System.out.println("A letra é uma vogal.");
 			break;
+			
 		default:
 			System.out.println("A letra é uma consoante.");
+			
 		}
 	}
 }

@@ -2,8 +2,8 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-// Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N-noturno.
-// Imprima a mensagem "Bom diA!", "Boa Tarde!" ou "Boa Noite!" ou "Valor inválido!", conforme o caso.
+// Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino, V-vespertino ou N-noturno.
+// Imprima a mensagem "Bom diA!", "Boa Tarde!", "Boa Noite!" ou "Valor inválido!", conforme o caso.
 
 public class Atividade10 {
 
@@ -30,6 +30,7 @@ public class Atividade10 {
 		case "N":
 			System.out.println("Boa noite!");
 			break;
+			
 		default:
 			System.out.println("Valor inválido!");
 		}

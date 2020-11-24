@@ -9,6 +9,7 @@ public class Abccc {
 		System.out.println("Contagem:");
 		do {
 			p++;
+			
 			System.out.println(p);
 		} while (p < 10);
 	}

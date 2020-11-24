@@ -22,12 +22,16 @@ public class Atividade11 {
 
 		if (salario <= 280) {
 			aumento = 20;
+			
 		} else if (salario > 280 && salario < 700) {
 			aumento = 15;
+			
 		} else if (salario > 700 && salario < 1500) {
 			aumento = 10;
+			
 		} else {
 			aumento = 5;
+			
 		}
 
 		System.out.println("O salário antigo era: " + salario);
@@ -35,5 +39,4 @@ public class Atividade11 {
 		System.out.println("O salário teve um aumento de: " + aumento + "%");
 		System.out.println("O aumento foi de: " + (((salario / 100 * aumento) + salario) - salario) + " reais");
 	}
-
 }

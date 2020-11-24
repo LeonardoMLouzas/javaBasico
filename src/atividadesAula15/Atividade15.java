@@ -27,14 +27,18 @@ public class Atividade15 {
 		if (((lado1 + lado2) > lado3) || ((lado1 + lado3) > lado2) || ((lado3 + lado2) > lado1)) {
 			if (lado1 == lado2 && lado2 == lado3) {
 				System.out.println("Quadrado Equilátero.");
+				
 			} else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
 				System.out.println("Quadrado Escaleno.");
+				
 			} else if ((lado1 == lado2 || lado2 == lado3 || lado1 == lado3)
 					&& (lado1 != lado2 || lado2 != lado3 || lado1 != lado3)) {
 				System.out.println("Quadrado Isósceles.");
+				
 			}
 		} else {
 			System.out.println("Não é um triângulo.");
+			
 		}
 	}
 }
