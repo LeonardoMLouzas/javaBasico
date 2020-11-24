@@ -18,19 +18,21 @@ public class Atividade06 {
 
 			if (escolha == 1) {
 				for (int i = 1; i < 21; i++) {
-
 					System.out.println(i);
+					
 				}
+				
 			} else if (escolha == 2) {
 				for (int i = 1; i < 21; i++) {
-
 					System.out.print(i + " ");
+					
 				}
 				
 				System.out.println("");
+
 			} else {
-				
 				System.out.println("Você escolheu sair.");			
+				
 			}
 		}
 	}

@@ -21,8 +21,10 @@ public class Atividade02 {
 
 			if (user == senha) {
 				System.out.println("Usuário e senha não podem ser iguais.");
+
 			} else {
 				System.out.println("Logado com sucesso.");
+
 			}
 		} while (user == senha);
 	}

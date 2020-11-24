@@ -14,9 +14,9 @@ public class Atividade01 {
 		int nota = leia.nextInt();
 
 		while (nota < 0 || nota > 10) {
-
 			System.out.println("Valor inválido. Tente novamente: ");
 			nota = leia.nextInt();
+			
 		}
 
 		System.out.println("nota digitada: " + nota);

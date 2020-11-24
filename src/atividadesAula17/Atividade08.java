@@ -13,13 +13,14 @@ public class Atividade08 {
 		double total = 0;
 		
 		for (int i=1; i<6; i++) {
-		
 			System.out.println("Digite o " + i + "º número: ");
 			numero = leia.nextInt();
 			total += numero;
+			
 		}
 		
 		System.out.println("A soma deles é: " + total);
 		System.out.println("A média deles é: " + total/5);
+
 	}
 }

@@ -14,11 +14,11 @@ public class Atividade07 {
 		int maior = -2147483648;
 
 		for (int i = 1; i < 6; i++) {
-			
 			System.out.println("digite o " + i + "º número:");
 			numero = leia.nextInt();
 			if (numero > maior) {
 				maior = numero;
+				
 			}
 		}
 		

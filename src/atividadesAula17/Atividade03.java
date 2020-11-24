@@ -22,35 +22,35 @@ public class Atividade03 {
 		String relacao = "x";
 		
 		 while (nome.length() < 3) {
-			 
 			 System.out.println("Digite seu nome (min. 3 char): ");
 			 nome = leia.nextLine();
+			 
 		 }
 		
 		 while (idade > 150 || idade <= 0) {
-			 
 			 System.out.println("Digite sua idade (150 > idade < 0): ");
 			 idade = leia.nextInt();
+			 
 		 }
 		 
 		 while (salario <= 0) {
-			 
 			 System.out.println("Digite seu salário (salario < 0): ");
 			 salario = leia.nextDouble();
+			 
 		 }
 		 
-		 //Método quebrado devido ao caractere de retorno.
+		 //Quebrado devido ao caractere de retorno.
 		 while (sexo != "f" || sexo != "m") {
-			 
 			 System.out.println("Digite seu sexo (f ou m): ");
 			 sexo = leia.next();
+			 
 		 }
 		 
-		 //Método quebrado devido ao caractere de retorno.
+		 //Quebrado devido ao caractere de retorno.
 		 while (relacao != "s" || relacao != "c" || relacao != "v" || relacao != "d") {
-			 
 			 System.out.println("Digite seu estado civil (s, c, v ou d): ");
 			 relacao = leia.next();
+			 
 		 }
 	}
 }

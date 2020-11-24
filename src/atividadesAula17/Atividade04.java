@@ -10,11 +10,12 @@ public class Atividade04 {
 		int popA = 80000;
 		int popB = 200000;
 		int anos = 0;
+		
 		while (popA < popB) {
-
 			popA += (popA / 100) * 3;
 			popB += (popB / 100) * 1.5;
 			anos++;
+			
 		}
 		
 		System.out.println("Total de anos para a população A alcançar a população B: " + anos);
