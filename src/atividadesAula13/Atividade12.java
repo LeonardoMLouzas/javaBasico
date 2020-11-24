@@ -9,9 +9,9 @@ public class Atividade12 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite sua altura: ");
+		System.out.print("Digite sua altura em metros: ");
 		double a = scan.nextDouble();
 		
-		System.out.print("Sua altura ideal é: " + ((72.7*a)-58));
+		System.out.print("Seu peso ideal é: " + ((72.7*a)-58));
 	}
 }

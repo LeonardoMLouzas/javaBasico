@@ -13,6 +13,5 @@ public class Atividade05 {
 		double n1 = scan.nextDouble();
 		
 		System.out.print("O valor em centímetros é: " + n1*100);
-		
 	}
 }

@@ -15,6 +15,6 @@ public class Atividade03 {
 		System.out.print("Digite o segundo valor: ");
 		double n2 = scan.nextDouble();
 		
-		System.out.println("A soma deles é:" + (n1 + n2));
+		System.out.println("A soma deles é: " + (n1 + n2));
 	}
 }

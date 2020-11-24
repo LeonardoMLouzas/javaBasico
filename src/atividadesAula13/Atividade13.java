@@ -1,4 +1,5 @@
 package atividadesAula13;
+
 import java.util.Scanner;
 
 // faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário
@@ -10,23 +11,22 @@ import java.util.Scanner;
 //    C) Salário líquido.
 
 public class Atividade13 {
-	
+
 	public static void main(String[] Args) {
-		
+
 		Scanner scan = new Scanner(System.in);
-		
+
 		System.out.print("Digite o quanto você ganha por hora: ");
-		double inSal = scan.nextDouble();
-		
+		double salarioHora = scan.nextDouble();
+
 		System.out.print("Digite quantas horas você trabalhará no mês: ");
-		double inHor = scan.nextDouble();
-		
-		System.out.println("A: " + inSal*inHor);
-		System.out.println("B: "+ ((inSal*inHor)*0.05));
-		System.out.println("B1: "+ ((inSal*inHor)*0.08));
-		System.out.println("B2: "+ ((inSal*inHor)*0.11));
-		
-		//Não funciona:
-		System.out.println("C: "+ ((inSal*inHor)*(0.95*0.89*0.92)));
+		double horaMes = scan.nextDouble();
+
+		System.out.println("A: " + salarioHora * horaMes);
+		System.out.println("B: " + ((salarioHora * horaMes) * 0.05));
+		System.out.println("B1: " + ((salarioHora * horaMes) * 0.08));
+		System.out.println("B2: " + ((salarioHora * horaMes) * 0.11));
+
+		System.out.println("C: "+ ((salarioHora * horaMes)*0.76));
 	}
 }
