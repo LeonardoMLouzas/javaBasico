@@ -15,8 +15,7 @@ public class Atividade21 {
 
 		while (sair == false) {
 
-			System.out.println(
-					"Digite 1 para adicionar uma turma, 2 para mostrar a média de alunos e 3 para sair. 9 para resetar os dados.");
+			System.out.println("Digite 1 para adicionar uma turma, 2 para mostrar a média de alunos e 3 para sair. 9 para resetar os dados.");
 
 			escolha = leia.nextInt();
 
