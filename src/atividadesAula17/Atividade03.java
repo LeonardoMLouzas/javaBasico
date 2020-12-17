@@ -28,7 +28,7 @@ public class Atividade03 {
 		 }
 		
 		 while (idade > 150 || idade <= 0) {
-			 System.out.println("Digite sua idade (150 > idade < 0): ");
+			 System.out.println("Digite sua idade (0 < idade > 150): ");
 			 idade = leia.nextInt();
 			 
 		 }
