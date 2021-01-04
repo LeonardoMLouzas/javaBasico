@@ -1,5 +1,7 @@
 package atividadesAula24;
 
+import java.util.Date;
+
 public class Atividade00_Main {
 
 	public static void main(String[] args) {
@@ -14,14 +16,14 @@ public class Atividade00_Main {
 
 		Atividade02 livro = new Atividade02();
 		livro.autor = "Eoin Colfer";
-		livro.dataPublicacao = "10/11/2014";
+		livro.dataPublicacao = new Date(2014, 11, 10);
 		livro.editora = "Fantástica Rocco";
 		livro.genero = "Ficção Científica";
 		livro.titulo = "Doctor Who: 12 Doutores, 12 histórias";
 
 		Atividade03 livroVenda = new Atividade03();
 		livroVenda.autor = "Eoin Colfer";
-		livroVenda.dataPublicacao = "10/11/2014";
+		livroVenda.dataPublicacao = new Date();
 		livroVenda.genero = "Ficção Científica";
 		livroVenda.titulo = "Doctor Who: 12 Doutores, 12 histórias";
 		livroVenda.valor = 29.90;
@@ -29,9 +31,9 @@ public class Atividade00_Main {
 		Atividade04 livroLivraria = new Atividade04();
 		livroLivraria.autor = "Eoin Colfer";
 		livroLivraria.cliente = "Leonardo M Louzas";
-		livroLivraria.dataDevolucao = "31/12/2021";
-		livroLivraria.dataEmprestimo = "01/01/2021";
-		livroLivraria.dataPublicacao = "10/11/2014";
+		livroLivraria.dataDevolucao = new Date(2021, 12, 31);
+		livroLivraria.dataEmprestimo = new Date(2021, 01, 01);
+		livroLivraria.dataPublicacao = new Date(2014, 11, 10);
 		livroLivraria.genero = "Ficção Científica";
 		livroLivraria.titulo = "Doctor Who: 12 Doutores, 12 histórias";
 
@@ -42,9 +44,11 @@ public class Atividade00_Main {
 		contaBancaria.saldo = 95214.94;
 
 		Atividade06 contato = new Atividade06();
+		contato.telefones = new String[5];
 		contato.nome = "Leo";
-		contato.numero = 99999.9999;
-		contato.numero2 = 99999.9999;
+		contato.email = "leo@leo.com";
+		contato.telefones[0] = "55 61 99999-9999";
+		contato.telefones[1] = "55 61 99999-9998";
 
 		System.out.println("***** LAMPADA *****");
 		System.out.println("cor = " + lampada.cor);
@@ -89,8 +93,8 @@ public class Atividade00_Main {
 
 		System.out.println("****** CONTATO ******");
 		System.out.println("nome = " + contato.nome);
-		System.out.println("numero = " + contato.numero);
-		System.out.println("numero 2 = " + contato.numero2);
+		System.out.println("numero = " + contato.telefones[0]);
+		System.out.println("numero 2 = " + contato.telefones[1]);
 		System.out.println("*********************");
 	}
 

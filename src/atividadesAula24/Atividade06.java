@@ -5,6 +5,6 @@ package atividadesAula24;
 public class Atividade06 {
 
 	String nome;
-	double numero;
-	double numero2;
+	String email;
+	String[] telefones;
 }
