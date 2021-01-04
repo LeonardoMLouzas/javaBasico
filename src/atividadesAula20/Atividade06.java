@@ -2,7 +2,7 @@ package atividadesAula20;
 
 import java.util.Scanner;
 
-//Faça um programa para jogar o jogo da velha. O programa deve permitir que dois jogadores façam uma partida do jogo da velha, usando o computador para ver o tabuleiro. Cada jogador vai alternadamente informando a posição onde deseja colocar a sua peça ("O" ou "X"). O programa deve impedir jogadas inválidas e determinar automaticamente quando o jogo terminou e quem foi o vencedor (jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situação do tabuleiro na tela.
+//Faï¿½a um programa para jogar o jogo da velha. O programa deve permitir que dois jogadores faï¿½am uma partida do jogo da velha, usando o computador para ver o tabuleiro. Cada jogador vai alternadamente informando a posiï¿½ï¿½o onde deseja colocar a sua peï¿½a ("O" ou "X"). O programa deve impedir jogadas invï¿½lidas e determinar automaticamente quando o jogo terminou e quem foi o vencedor (jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situaï¿½ï¿½o do tabuleiro na tela.
 
 public class Atividade06 {
 
@@ -38,7 +38,7 @@ public class Atividade06 {
 					jogada++;
 
 				} else {
-					System.out.println("Jogada inválida. Tente novamente.");
+					System.out.println("Jogada invÃ¡lida. Tente novamente.");
 				}
 			}
 			jogadaValida = false;
@@ -57,7 +57,7 @@ public class Atividade06 {
 						tabuleiro[x][y] = 'O';
 						jogada++;
 					} else {
-						System.out.println("Jogada inválida. Tente novamente.");
+						System.out.println("Jogada invÃ¡lida. Tente novamente.");
 					}
 				}
 			}
@@ -86,12 +86,12 @@ public class Atividade06 {
 
 			if (vencedor == 0) {
 				System.out.println("");
-				System.out.println("O jogador 1 é o vencedor!");
+				System.out.println("O jogador 1 Ã© o vencedor!");
 				System.out.println("");
 				break;
 			} else if (vencedor == 1) {
 				System.out.println("");
-				System.out.println("O jogador 2 é o vencedor!");
+				System.out.println("O jogador 2 Ã© o vencedor!");
 				System.out.println("");
 				break;
 			} else if (jogada > 9) {
