@@ -1,10 +1,10 @@
-package atividadesAula20;
+package atividadesAula27;
 
 import java.util.Scanner;
 
 //Faça um programa para jogar o jogo da velha. O programa deve permitir que dois jogadores façam uma partida do jogo da velha, usando o computador para ver o tabuleiro. Cada jogador vai alternadamente informando a posiçãoo onde deseja colocar a sua peça ("O" ou "X"). O programa deve impedir jogadas inválidas edeterminar automaticamente quando o jogo terminou e quem foi o vencedor (jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situação do tabuleiro na tela.
 
-public class Atividade06 {
+public class Atividade06Main {
 
     public static void main(String[] args) {
 
