@@ -94,6 +94,17 @@ public class Atividade00_Main {
 			}
 		}
 		
+		System.out.println("\n\n\n");
 
+		Atividade04 jogo = new Atividade04();
+        boolean acabou = false;
+
+        while(!jogo.fimdejogo){
+            jogo.mostrarTabuleiro();
+
+            jogo.jogada();
+
+            jogo.verificarGanhador();
+        }
 	}
 }
