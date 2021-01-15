@@ -4,9 +4,33 @@ package atividadesAula33;
 
 public class Atividade01 {
 
-    private boolean ligada = false;
+    private boolean ligada;
 
-    public boolean getLigada() {
+    public void ligar() {
+        setLigada(true);
+    }
+
+    public void desligar() {
+        setLigada(false);
+    }
+
+    public void mostrarEstado() {
+        if (isLigada()) {
+            System.out.println("A lâmpada está ligada.");
+        } else {
+            System.out.println("A lâmpada está desligada.");
+        }
+    }
+
+    public void mudarEstado() {
+        if (isLigada()) {
+            setLigada(false);
+        } else {
+            setLigada(true);
+        }
+    }
+
+    public boolean isLigada() {
         return ligada;
     }
 

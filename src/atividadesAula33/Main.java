@@ -7,11 +7,15 @@ public class Main {
 /*******************************************************************/
         Atividade01 lampada = new Atividade01();
 
-        lampada.setLigada(true);
-        System.out.println(lampada.getLigada());
+        lampada.mostrarEstado();
+        lampada.mudarEstado();
+        lampada.mostrarEstado();
+        lampada.mudarEstado();
+        lampada.mostrarEstado();
 /*******************************************************************/
 
-        
+/*******************************************************************/
+        Atividade02 conta = new Atividade02();
 
     }
 }
