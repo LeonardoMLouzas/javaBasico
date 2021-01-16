@@ -11,7 +11,20 @@ public class Atividade02 {
     double especialUsado;
     boolean especial;
 
-    boolean realizarSaque(double quantiaSacar) {
+    public Atividade02() {
+
+    }
+
+    public Atividade02 (String numero, String agencia, double saldo, double limiteEspecial, double especialUsado, boolean especial) {
+        this.numero = numero;
+        this.agencia = agencia;
+        this.saldo = saldo;
+        this.limiteEspecial = limiteEspecial;
+        this.especialUsado = especialUsado;
+        this.especial = especial;
+    }
+
+    public boolean realizarSaque(double quantiaSacar) {
 
         if (saldo >= quantiaSacar) {// Tem saldo na conta.
             saldo -= quantiaSacar;
@@ -32,16 +45,65 @@ public class Atividade02 {
         }
     }
 
-    void depositarDinheiro(double quantiaDepositar) {
+    public void depositarDinheiro(double quantiaDepositar) {
 
         saldo += quantiaDepositar;
     }
 
-    void consultarSaldo() {
+
+    public void consultarSaldo() {
         System.out.println("Saldo: " + saldo);
     }
 
     boolean verificarChequeEspecial() {
         return saldo < 0;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(String agencia) {
+        this.agencia = agencia;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getLimiteEspecial() {
+        return limiteEspecial;
+    }
+
+    public void setLimiteEspecial(double limiteEspecial) {
+        this.limiteEspecial = limiteEspecial;
+    }
+
+    public double getEspecialUsado() {
+        return especialUsado;
+    }
+
+    public void setEspecialUsado(double especialUsado) {
+        this.especialUsado = especialUsado;
+    }
+
+    public boolean isEspecial() {
+        return especial;
+    }
+
+    public void setEspecial(boolean especial) {
+        this.especial = especial;
     }
 }
