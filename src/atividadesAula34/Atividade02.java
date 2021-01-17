@@ -24,14 +24,16 @@ public class Atividade02 {
         return Math.pow(num1, num2);
     }
 
-    public static double fatorial(double num1) {
+    public static int fatorial(int num) {
 
-        double total = num1;
-        double f = total;
-        while (total>1) {
-            f = f*(total-1);
-            total--;
+        if (num == 0) {
+            return 1;
         }
-        return f;
+
+        int total = 1;
+        for (int i = num; i > 1; i--) {
+            total *= i;
+        }
+        return total;
     }
 }

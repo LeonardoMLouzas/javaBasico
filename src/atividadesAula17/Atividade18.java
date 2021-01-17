@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
+//FaÃ§a um programa que peÃ§a um nÃºmero inteiro e determine se ele Ã© ou nÃ£o um nÃºmero primo.
 
 public class Atividade18 {
 
@@ -12,7 +12,7 @@ public class Atividade18 {
 
 		boolean primo = true;
 
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		int numero = leia.nextInt();
 
 		for (int j = 2; j < numero; j++) {
@@ -20,10 +20,10 @@ public class Atividade18 {
 				primo = false;
 		}
 		if (primo == true) {
-			System.out.println("O número é primo.");
+			System.out.println("O nÃºmero Ã© primo.");
 
 		} else {
-			System.out.println("O número não é primo.");
+			System.out.println("O nÃºmero nÃ£o Ã© primo.");
 			
 		}
 	}

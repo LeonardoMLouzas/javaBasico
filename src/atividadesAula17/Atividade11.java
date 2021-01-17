@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Altere o programa anterior para mostrar no final a soma dos números. 
+//Altere o programa anterior para mostrar no final a soma dos nÃºmeros. 
 
 public class Atividade11 {
 
@@ -12,10 +12,10 @@ public class Atividade11 {
 
 		int soma = 0, numeroMenor, numeroMaior;
 
-		System.out.println("Digite o menor número: ");
+		System.out.println("Digite o menor nÃºmero: ");
 		numeroMenor = leia.nextInt();
 
-		System.out.println("Digite o maior número: ");
+		System.out.println("Digite o maior nÃºmero: ");
 		numeroMaior = leia.nextInt();
 
 		numeroMenor++;
@@ -27,6 +27,6 @@ public class Atividade11 {
 
 		}
 		System.out.println("");
-		System.out.println("A soma deles é: " + soma);
+		System.out.println("A soma deles Ã©: " + soma);
 	}
 }

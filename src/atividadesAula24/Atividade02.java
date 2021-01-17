@@ -2,7 +2,7 @@ package atividadesAula24;
 
 import java.util.Date;
 
-//Crie uma classe Livro que represente os dados b·sicos de um livro, sem se preocupar com a sua finalidade.
+//Crie uma classe Livro que represente os dados b√°sicos de um livro, sem se preocupar com a sua finalidade.
 
 public class Atividade02 {
 

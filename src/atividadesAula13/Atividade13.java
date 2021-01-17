@@ -2,13 +2,13 @@ package atividadesAula13;
 
 import java.util.Scanner;
 
-// faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário
-// referido no mês, sabendo-se que são descontados 11% para o imposto de renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: 
-//    A) Salário bruto. 
+// faÃ§a um programa que pergunte quanto vocÃª ganha por hora e o nÃºmero de horas trabalhadas no mÃªs. Calcule e mostre o total do seu salÃ¡rio
+// referido no mÃªs, sabendo-se que sÃ£o descontados 11% para o imposto de renda, 8% para o INSS e 5% para o sindicato, faÃ§a um programa que nos dÃª: 
+//    A) SalÃ¡rio bruto. 
 //    B) Quanto pagou ao sindicato. 
 //    B1) INSS.
 //	  B2) Imposto de Renda.
-//    C) Salário líquido.
+//    C) SalÃ¡rio lÃ­quido.
 
 public class Atividade13 {
 
@@ -16,10 +16,10 @@ public class Atividade13 {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Digite o quanto você ganha por hora: ");
+		System.out.print("Digite o quanto vocÃª ganha por hora: ");
 		double salarioHora = scan.nextDouble();
 
-		System.out.print("Digite quantas horas você trabalhará no mês: ");
+		System.out.print("Digite quantas horas vocÃª trabalharÃ¡ no mÃªs: ");
 		double horaMes = scan.nextDouble();
 
 		System.out.println("A: " + salarioHora * horaMes);

@@ -2,7 +2,7 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-//Faça um programa que peça dois números e imprima o maior deles.
+//FaÃ§a um programa que peÃ§a dois nÃºmeros e imprima o maior deles.
 
 public class Atividade01 {
 
@@ -10,20 +10,20 @@ public class Atividade01 {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		int num = scan.nextInt();
 
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		int num2 = scan.nextInt();
 
 		if (num > num2) {
-			System.out.println("O maior número é: " + num);
+			System.out.println("O maior nÃºmero Ã©: " + num);
 			
 		} else if (num2 > num) {
-			System.out.println("O maior número é: " + num2);
+			System.out.println("O maior nÃºmero Ã©: " + num2);
 			
 		} else {
-			System.out.println("Os números são iguais.");
+			System.out.println("Os nÃºmeros sÃ£o iguais.");
 			
 		}
 	}

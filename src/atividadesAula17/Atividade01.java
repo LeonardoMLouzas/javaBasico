@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-// FaÁa um programa que peÁa uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inv·lido e continue pedindo atÈ que o usu·rio informe um valor v·lido.
+// Fa√ßa um programa que pe√ßa uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inv√°lido e continue pedindo at√© que o usu√°rio informe um valor v√°lido.
 
 public class Atividade01 {
 
@@ -14,7 +14,7 @@ public class Atividade01 {
 		int nota = leia.nextInt();
 
 		while (nota < 0 || nota > 10) {
-			System.out.println("Valor inv·lido. Tente novamente: ");
+			System.out.println("Valor inv√°lido. Tente novamente: ");
 			nota = leia.nextInt();
 			
 		}

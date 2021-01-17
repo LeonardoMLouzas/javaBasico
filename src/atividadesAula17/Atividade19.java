@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//FaÁa um programa que calcule e mostre a mÈdia aritmÈtica de N notas
+//Fa√ßa um programa que calcule e mostre a m√©dia aritm√©tica de N notas
 
 public class Atividade19 {
 
@@ -12,16 +12,16 @@ public class Atividade19 {
 		
 		double total = 0;
 		
-		System.out.println("Quantas notas ser„o calculadas? ");
+		System.out.println("Quantas notas ser√£o calculadas? ");
 		int quantidade = leia.nextInt();
 		
 		for (int i = 1; i <= quantidade ; i++ ) {
 			
-			System.out.println("Digite a " + i + "∫ nota: ");
+			System.out.println("Digite a " + i + "¬∫ nota: ");
 			double nota = leia.nextDouble();
 			
 			total += nota;
 		}
-		System.out.println("A mÈdia È: " + (total/quantidade));
+		System.out.println("A m√©dia √©: " + (total/quantidade));
 	}
 }

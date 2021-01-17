@@ -2,7 +2,7 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-// Faça um programa que verifique se uma letra digitada é vogal ou consoante.
+// FaÃ§a um programa que verifique se uma letra digitada Ã© vogal ou consoante.
 
 public class Atividade04 {
 
@@ -20,11 +20,11 @@ public class Atividade04 {
 		case "i":
 		case "o":
 		case "u":
-			System.out.println("A letra é uma vogal.");
+			System.out.println("A letra Ã© uma vogal.");
 			break;
 			
 		default:
-			System.out.println("A letra é uma consoante.");
+			System.out.println("A letra Ã© uma consoante.");
 			
 		}
 	}

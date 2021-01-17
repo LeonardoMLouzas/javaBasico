@@ -16,6 +16,6 @@ public class Atividade12 {
 			total += a[i];
 			System.out.println(a[i]);
 		}
-		System.out.println("O total é: " + total);
+		System.out.println("O total Ã©: " + total);
 	}
 }

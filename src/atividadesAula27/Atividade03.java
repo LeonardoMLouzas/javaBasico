@@ -1,6 +1,6 @@
 package atividadesAula27;
 
-//Escreva uma classe para representar um aluno. Adicione atributos relacionados ‡s caracterÌsticas de um aluno, como Nome, MatrÌcula, Curso, 3 disciplinas e as notas. Desenvolva um mÈtodo para verificar se o aluno est· aprovado (N>=7) em uma determinada disciplina. Escreva um programa para testar essa classe, que pede as informaÁıes do aluno e ao usu·rio final informa o nomr das disciplinas, mostra as notas e mostra se o aluno foi aprovado ou n„o.
+//Escreva uma classe para representar um aluno. Adicione atributos relacionados √†s caracter√≠sticas de um aluno, como Nome, Matr√≠cula, Curso, 3 disciplinas e as notas. Desenvolva um m√©todo para verificar se o aluno est√° aprovado (N>=7) em uma determinada disciplina. Escreva um programa para testar essa classe, que pede as informa√ß√µes do aluno e ao usu√°rio final informa o nomr das disciplinas, mostra as notas e mostra se o aluno foi aprovado ou n√£o.
 
 public class Atividade03 {
 
@@ -14,7 +14,7 @@ public class Atividade03 {
 
 	void mostrarInformacoes() {
 		System.out.println("Nome: " + nome);
-		System.out.println("MatrÌcula " + matricula);
+		System.out.println("Matr√≠cula " + matricula);
 		System.out.println("Curso: " + curso);
 		
 		for(int i = 0; i < notas.length; i++) {

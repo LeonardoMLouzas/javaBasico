@@ -1,6 +1,6 @@
 package atividadesAula24;
 
-//Escreva uma classe para representar uma l‚mpada que est· ‡ venda em um supermercado.
+//Escreva uma classe para representar uma l√¢mpada que est√° √† venda em um supermercado.
 
 public class Atividade01 {
 

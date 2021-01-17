@@ -1,7 +1,7 @@
 package atividadesAula17;
 
-//supondo que a populaÁ„o de um paÌs a seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a populaÁ„o de B seja 200000 habitantes a 1.5% ao ano
-//FaÁa um programa que calcule e mostre os anos necess·rios para que a populaÁ„o do paÌs A iguale ou ultrapasse a populaÁ„o do B.
+//supondo que a popula√ß√£o de um pa√≠s a seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a popula√ß√£o de B seja 200000 habitantes a 1.5% ao ano
+//Fa√ßa um programa que calcule e mostre os anos necess√°rios para que a popula√ß√£o do pa√≠s A iguale ou ultrapasse a popula√ß√£o do B.
 
 public class Atividade04 {
 
@@ -18,8 +18,8 @@ public class Atividade04 {
 			
 		}
 		
-		System.out.println("Total de anos para a populaÁ„o A alcanÁar a populaÁ„o B: " + anos);
-		System.out.println("Total da populaÁ„o A: " + popA);
-		System.out.println("Total da populaÁ„o B: " + popB);
+		System.out.println("Total de anos para a popula√ß√£o A alcan√ßar a popula√ß√£o B: " + anos);
+		System.out.println("Total da popula√ß√£o A: " + popA);
+		System.out.println("Total da popula√ß√£o B: " + popB);
 	}
 }

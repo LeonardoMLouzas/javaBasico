@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê o raio de um circulo, calcule e mostre a área dele.
+// FaÃ§a um programa que lÃª o raio de um circulo, calcule e mostre a Ã¡rea dele.
 
 public class Atividade06 {
 	
@@ -12,6 +12,6 @@ public class Atividade06 {
 		System.out.print("Digite o raio: ");
 		double r1 = scan.nextDouble();
 		
-		System.out.print("A área é:" + (Math.PI*Math.pow(r1, 2)));
+		System.out.print("A Ã¡rea Ã©:" + (Math.PI*Math.pow(r1, 2)));
 	}
 }

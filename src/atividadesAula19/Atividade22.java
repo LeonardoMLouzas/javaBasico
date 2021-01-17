@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Gerar aleatoriamente um vetor A com 10 elementos inteiros e iguais a 0 e 1, sugestão: A[i] = (int)Math.round(Math.random() * 1); Pede-se para implementar um programa que determine o percentual de números 0's e 1's existentes no vetor A.
+//Gerar aleatoriamente um vetor A com 10 elementos inteiros e iguais a 0 e 1, sugestÃ£o: A[i] = (int)Math.round(Math.random() * 1); Pede-se para implementar um programa que determine o percentual de nÃºmeros 0's e 1's existentes no vetor A.
 
 public class Atividade22 {
 
@@ -22,7 +22,7 @@ public class Atividade22 {
 				totalUm++;
 			}
 		}
-		System.out.println("\nPorcentual de números zero: " + (totalZero / a.length) * 100 + "%");
-		System.out.println("Porcentual de números Um: " + (totalUm / a.length) * 100 + "%");
+		System.out.println("\nPorcentual de nÃºmeros zero: " + (totalZero / a.length) * 100 + "%");
+		System.out.println("Porcentual de nÃºmeros Um: " + (totalUm / a.length) * 100 + "%");
 	}
 }

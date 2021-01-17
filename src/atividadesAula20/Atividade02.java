@@ -1,6 +1,6 @@
 package atividadesAula20;
 
-//Gere e imprima uma matriz M 10x10 com valores aleatórios entre 0-9. Após isso indique qual é o maior e o menor valor da linha 5 e qual o menor e maior valor da coluna 7.
+//Gere e imprima uma matriz M 10x10 com valores aleatÃ³rios entre 0-9. ApÃ³s isso indique qual Ã© o maior e o menor valor da linha 5 e qual o menor e maior valor da coluna 7.
 
 public class Atividade02 {
 

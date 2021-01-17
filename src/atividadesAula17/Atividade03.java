@@ -2,10 +2,10 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-// Faça um programa que leia e valide as seguintes informações: 
+// FaÃ§a um programa que leia e valide as seguintes informaÃ§Ãµes: 
 // a: Nome maior que 2 caracteres
 // b: Idade entre 0 e 150
-// c: Salário maior que 0
+// c: SalÃ¡rio maior que 0
 // d: Sexo 'f' ou 'm'
 // e: Estado Civil 's', 'c', 'v' ou 'd'
 
@@ -34,7 +34,7 @@ public class Atividade03 {
 		 }
 		 
 		 while (salario <= 0) {
-			 System.out.println("Digite seu salário (salario < 0): ");
+			 System.out.println("Digite seu salÃ¡rio (salario < 0): ");
 			 salario = leia.nextDouble();
 			 
 		 }

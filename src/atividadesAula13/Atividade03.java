@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê dois números e imprime a soma deles.
+// FaÃ§a um programa que lÃª dois nÃºmeros e imprime a soma deles.
 
 public class Atividade03 {
 	
@@ -15,6 +15,6 @@ public class Atividade03 {
 		System.out.print("Digite o segundo valor: ");
 		double n2 = scan.nextDouble();
 		
-		System.out.println("A soma deles é: " + (n1 + n2));
+		System.out.println("A soma deles Ã©: " + (n1 + n2));
 	}
 }

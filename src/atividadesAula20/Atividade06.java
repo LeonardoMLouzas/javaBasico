@@ -2,7 +2,7 @@ package atividadesAula20;
 
 import java.util.Scanner;
 
-//Faça um programa para jogar o jogo da velha. O programa deve permitir que dois jogadores façam uma partida do jogo da velha, usando o computador para ver o tabuleiro. Cada jogador vai alternadamente informando a posiçãoo onde deseja colocar a sua peça ("O" ou "X"). O programa deve impedir jogadas inválidas edeterminar automaticamente quando o jogo terminou e quem foi o vencedor (jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situação do tabuleiro na tela.
+//FaÃ§a um programa para jogar o jogo da velha. O programa deve permitir que dois jogadores faÃ§am uma partida do jogo da velha, usando o computador para ver o tabuleiro. Cada jogador vai alternadamente informando a posiÃ§Ã£o onde deseja colocar a sua peÃ§a ("O" ou "X"). O programa deve impedir jogadas invÃ¡lidas edeterminar automaticamente quando o jogo terminou e quem foi o vencedor (jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situaÃ§Ã£o do tabuleiro na tela.
 
 public class Atividade06 {
 
@@ -25,11 +25,11 @@ public class Atividade06 {
             }
 
             if (jogadas % 2 == 1) { //Jogador 1
-                System.out.println("\n\n\n\n\n\nJogador 1. Faça sua jogada!");
+                System.out.println("\n\n\n\n\n\nJogador 1. FaÃ§a sua jogada!");
                 sinal = 'X';
 
             } else { //Jogador 2
-                System.out.println("\n\n\n\n\n\nJogador 2. Faça sua jogada!");
+                System.out.println("\n\n\n\n\n\nJogador 2. FaÃ§a sua jogada!");
                 sinal = 'O';
             }
 
@@ -42,7 +42,7 @@ public class Atividade06 {
                     linhaValida = true;
 
                 } else {
-                    System.out.println("Linha inválida. Tente novamente!");
+                    System.out.println("Linha invÃ¡lida. Tente novamente!");
                 }
             }
 
@@ -55,14 +55,14 @@ public class Atividade06 {
                     colunaValida = true;
 
                 } else {
-                    System.out.println("Coluna inválida. Tente novamente!");
+                    System.out.println("Coluna invÃ¡lida. Tente novamente!");
                 }
             }
 
             linha--;
             coluna--;
             if (tabuleiro[linha][coluna] == 'X' || tabuleiro[linha][coluna] == 'O') {
-                System.out.println("Posição já preenchida. Tente novamente!");
+                System.out.println("PosiÃ§Ã£o jÃ¡ preenchida. Tente novamente!");
             } else {
                 tabuleiro[linha][coluna] = sinal;
                 jogadas++;
@@ -77,7 +77,7 @@ public class Atividade06 {
                     (tabuleiro[0][0] == 'X' && tabuleiro[1][1] == 'X' && tabuleiro[2][2] == 'X') || // Diagonal 1
                     (tabuleiro[0][2] == 'X' && tabuleiro[1][1] == 'X' && tabuleiro[2][0] == 'X')) { // Diagonal 2
 
-                System.out.println("Jogador 1 venceu. Parabéns!");
+                System.out.println("Jogador 1 venceu. ParabÃ©ns!");
                 fimdejogo = true;
             } else if ((tabuleiro[0][0] == 'O' && tabuleiro[0][1] == 'O' && tabuleiro[0][2] == 'O') || // Linha 1
                     (tabuleiro[1][0] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[1][2] == 'O') || // Linha 2
@@ -88,7 +88,7 @@ public class Atividade06 {
                     (tabuleiro[0][0] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[2][2] == 'O') || // Diagonal 1
                     (tabuleiro[0][2] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[2][0] == 'O')) { // Diagonal 2
 
-                System.out.println("Jogador 2 venceu. Parabéns!");
+                System.out.println("Jogador 2 venceu. ParabÃ©ns!");
                 fimdejogo = true;
             } else if (jogadas > 9) {
                 System.out.println("Jogo acabou. Empate!");

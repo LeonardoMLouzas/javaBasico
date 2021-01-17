@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que: . Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00; a. Em 1996 recebeu aumento de 1,5% sobre seu salário inicial; b. A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
+//Um funcionÃ¡rio de uma empresa recebe aumento salarial anualmente: Sabe-se que: . Esse funcionÃ¡rio foi contratado em 1995, com salÃ¡rio inicial de R$ 1.000,00; a. Em 1996 recebeu aumento de 1,5% sobre seu salÃ¡rio inicial; b. A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. FaÃ§a um programa que determine o salÃ¡rio atual desse funcionÃ¡rio. ApÃ³s concluir isto, altere o programa permitindo que o usuÃ¡rio digite o salÃ¡rio inicial do funcionÃ¡rio.
 
 /*
  * public class Atividade31 {
@@ -28,7 +28,7 @@ public class Atividade31 {
 
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("Digite o salário atual: ");
+		System.out.println("Digite o salÃ¡rio atual: ");
 		double salario = leia.nextDouble();
 
 		double aumento = 1.5;

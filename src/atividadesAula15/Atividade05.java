@@ -2,10 +2,10 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-// Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada pelo aluno e apresentar:
-// A mensagem "Aprovado" se a média for maior ou igual a 7.
-// A mensagem "Reprovado" se a média for menor que 7.
-// A mensagem "Perfeito" se a média for igual a 10.
+// FaÃ§a um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a mÃ©dia alcanÃ§ada pelo aluno e apresentar:
+// A mensagem "Aprovado" se a mÃ©dia for maior ou igual a 7.
+// A mensagem "Reprovado" se a mÃ©dia for menor que 7.
+// A mensagem "Perfeito" se a mÃ©dia for igual a 10.
 
 public class Atividade05 {
 
@@ -20,13 +20,13 @@ public class Atividade05 {
 		nota1 = ((nota1 + nota2) / 2);
 
 		if (nota1 == 10) {
-			System.out.println("Perfeito. Média: " + nota1);
+			System.out.println("Perfeito. MÃ©dia: " + nota1);
 			
 		} else if (nota1 >= 7) {
-			System.out.println("Aprovado. Média: " + nota1);
+			System.out.println("Aprovado. MÃ©dia: " + nota1);
 			
 		} else {
-			System.out.println("Reprovado. Média: " + nota1);
+			System.out.println("Reprovado. MÃ©dia: " + nota1);
 			
 		}
 	}

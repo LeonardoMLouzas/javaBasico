@@ -4,19 +4,19 @@ package atividadesAula34;
 
 public class Atividade01 {
 
-    int conta;
+    private static int conta;
 
-    public Atividade01() {
 
-        conta += 1;
+    public static void somar() {
+        conta ++;
     }
-
-    public void somar() {
-        conta += 1;
-    }
-
-    public void subtrair() {
+    
+    public static void subtrair() {
         conta -= 1;
+    }
+    
+    public static void zerar() {
+        conta = 0;
     }
 
     public void mostrar() {

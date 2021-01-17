@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê a altura de uma pessoa e mostre o peso ideal utilizando a fórmula: (72.7*altura)-58
+// FaÃ§a um programa que lÃª a altura de uma pessoa e mostre o peso ideal utilizando a fÃ³rmula: (72.7*altura)-58
 
 public class Atividade12 {
 	
@@ -12,6 +12,6 @@ public class Atividade12 {
 		System.out.print("Digite sua altura em metros: ");
 		double a = scan.nextDouble();
 		
-		System.out.print("Seu peso ideal é: " + ((72.7*a)-58));
+		System.out.print("Seu peso ideal Ã©: " + ((72.7*a)-58));
 	}
 }

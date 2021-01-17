@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares
+//FaÃ§a um programa que peÃ§a 10 nÃºmeros inteiros, calcule e mostre a quantidade de nÃºmeros pares e a quantidade de nÃºmeros impares
 
 public class Atividade14 {
 
@@ -13,7 +13,7 @@ public class Atividade14 {
 		
 		for (int i = 1; i < 11; i++) {
 			
-			System.out.println("Digite o " + i + "º númrero: ");
+			System.out.println("Digite o " + i + "Âº nÃºmrero: ");
 			numero = leia.nextInt();
 			
 			if (numero % 2 == 0) {
@@ -25,7 +25,7 @@ public class Atividade14 {
 			}
 		}
 		
-		System.out.println("Quantidade de números pares: " + par);
-		System.out.println("Quantidade de números ímpares: " + impar);
+		System.out.println("Quantidade de nÃºmeros pares: " + par);
+		System.out.println("Quantidade de nÃºmeros Ã­mpares: " + impar);
 	}
 }

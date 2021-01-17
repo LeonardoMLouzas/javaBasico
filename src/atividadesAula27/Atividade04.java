@@ -25,11 +25,11 @@ public class Atividade04 {
     void jogada() {
 
         if (jogadas % 2 == 1) { // Jogador 1
-            System.out.println("\n\n\n\n\n\nJogador 1. Faça sua jogada!");
+            System.out.println("\n\n\n\n\n\nJogador 1. FaÃ§a sua jogada!");
             sinal = 'X';
 
         } else { // Jogador 2
-            System.out.println("\n\n\n\n\n\nJogador 2. Faça sua jogada!");
+            System.out.println("\n\n\n\n\n\nJogador 2. FaÃ§a sua jogada!");
             sinal = 'O';
         }
 
@@ -48,7 +48,7 @@ public class Atividade04 {
                 linhaValida = true;
 
             } else {
-                System.out.println("Linha inválida. Tente novamente!");
+                System.out.println("Linha invÃ¡lida. Tente novamente!");
             }
         }
 
@@ -61,14 +61,14 @@ public class Atividade04 {
                 colunaValida = true;
 
             } else {
-                System.out.println("Coluna inválida. Tente novamente!");
+                System.out.println("Coluna invÃ¡lida. Tente novamente!");
             }
         }
 
         linha--;
         coluna--;
         if (tabuleiro[linha][coluna] == 'X' || tabuleiro[linha][coluna] == 'O') {
-            System.out.println("Posição já preenchida. Tente novamente!");
+            System.out.println("PosiÃ§Ã£o jÃ¡ preenchida. Tente novamente!");
         } else {
             tabuleiro[linha][coluna] = sinal;
             jogadas++;
@@ -86,7 +86,7 @@ public class Atividade04 {
                 (tabuleiro[0][0] == 'X' && tabuleiro[1][1] == 'X' && tabuleiro[2][2] == 'X') || // Diagonal 1
                 (tabuleiro[0][2] == 'X' && tabuleiro[1][1] == 'X' && tabuleiro[2][0] == 'X')) { // Diagonal 2
 
-            System.out.println("Jogador 1 venceu. Parabéns!");
+            System.out.println("Jogador 1 venceu. ParabÃ©ns!");
             fimdejogo = true;
         } else if ((tabuleiro[0][0] == 'O' && tabuleiro[0][1] == 'O' && tabuleiro[0][2] == 'O') || // Linha 1
                 (tabuleiro[1][0] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[1][2] == 'O') || // Linha 2
@@ -97,7 +97,7 @@ public class Atividade04 {
                 (tabuleiro[0][0] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[2][2] == 'O') || // Diagonal 1
                 (tabuleiro[0][2] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[2][0] == 'O')) { // Diagonal 2
 
-            System.out.println("Jogador 2 venceu. Parabéns!");
+            System.out.println("Jogador 2 venceu. ParabÃ©ns!");
             fimdejogo = true;
         } else if (jogadas > 9) {
             System.out.println("Jogo acabou. Empate!");

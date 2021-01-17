@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a quantidade de elementos armazenados neste vetor que são pares.
+//Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a quantidade de elementos armazenados neste vetor que sÃ£o pares.
 
 public class Atividade11 {
 
@@ -19,6 +19,6 @@ public class Atividade11 {
 
 			System.out.print(a[i] + " ");
 		}
-		System.out.println("\nQuantidade de números pares: " + par);
+		System.out.println("\nQuantidade de nÃºmeros pares: " + par);
 	}
 }

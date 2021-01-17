@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Desenvolva um programa que faÁa a tabuada de um n˙mero qualquer inteiro que ser· digitado pelo usu·rio, mas a tabuada n„o deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados tambÈm pelo usu·rio, conforme exemplo abaixo: o Montar a tabuada de: 5 ComeÁar por: 4 o Terminar em: 7 o o Vou montar a tabuada de 5 comeÁando em 4 e terminando em 7: o 5 X 4 = 20 o 5 X 5 = 25 o 5 X 6 = 30 o 5 X 7 = 35 Obs: VocÍ deve verificar se o usu·rio n„o digitou o final menor que o inicial
+//Desenvolva um programa que fa√ßa a tabuada de um n√∫mero qualquer inteiro que ser√° digitado pelo usu√°rio, mas a tabuada n√£o deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados tamb√©m pelo usu√°rio, conforme exemplo abaixo: o Montar a tabuada de: 5 Come√ßar por: 4 o Terminar em: 7 o o Vou montar a tabuada de 5 come√ßando em 4 e terminando em 7: o 5 X 4 = 20 o 5 X 5 = 25 o 5 X 6 = 30 o 5 X 7 = 35 Obs: Voc√™ deve verificar se o usu√°rio n√£o digitou o final menor que o inicial
 
 public class Atividade30 {
 
@@ -26,7 +26,7 @@ public class Atividade30 {
 		if (valorMin < valorMax) {
 			correto = true;
 		} else {
-			System.out.println("Digite valores v·lidos.");
+			System.out.println("Digite valores v√°lidos.");
 		}
 		}
 		

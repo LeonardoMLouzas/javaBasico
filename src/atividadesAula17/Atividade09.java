@@ -1,6 +1,6 @@
 package atividadesAula17;
 
-//Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+//FaÃ§a um programa que imprima na tela apenas os nÃºmeros Ã­mpares entre 1 e 50.
 
 public class Atividade09 {
 

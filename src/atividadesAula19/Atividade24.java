@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Números palíndromos são aqueles que escritos da direita para a esquerda têm o mesmo valor quando escritos da esquerda para a direita. Exemplo: 545; 789987; 97379; 123454321; etc. Escreva um programa que verifique se um dado vetor A de 10 elementos inteiros é um palíndromo, ou seja, se o primeiro elemento do vetor e igual ao último, se o segundo elemento do vetor é igual ao penúltimo e assim por diante até verificar todos os elementos ou chegar a conclusão que o vetor não é um palíndromo.
+//NÃºmeros palÃ­ndromos sÃ£o aqueles que escritos da direita para a esquerda tÃªm o mesmo valor quando escritos da esquerda para a direita. Exemplo: 545; 789987; 97379; 123454321; etc. Escreva um programa que verifique se um dado vetor A de 10 elementos inteiros Ã© um palÃ­ndromo, ou seja, se o primeiro elemento do vetor e igual ao Ãºltimo, se o segundo elemento do vetor Ã© igual ao penÃºltimo e assim por diante atÃ© verificar todos os elementos ou chegar a conclusÃ£o que o vetor nÃ£o Ã© um palÃ­ndromo.
 
 public class Atividade24 {
 
@@ -26,10 +26,10 @@ public class Atividade24 {
 		}
 		if (palindromo == true) {
 
-			System.out.println("\nO Array é um palindromo.");
+			System.out.println("\nO Array Ã© um palÃ­ndromo.");
 		} else {
 
-			System.out.println("\nO Array não é um palindromo.");
+			System.out.println("\nO Array nÃ£o Ã© um palÃ­ndromo.");
 		}
 	}
 }

@@ -2,7 +2,7 @@ package atividadesAula20;
 
 import java.util.Scanner;
 
-//Faça um programa para armazenar em uma matriz os compromissos de uma agenda pessoal. Cada dia do mês deve conter 24h, onde para cada hora podemos associar uma tarefa específica. O programa deve ter um menu onde o usuário indica o dia e hora que deseja alterar, entrando em seguida com o compromisso, ou então, o usuário pode também consultar a agenda, fornecendo o dia e a hora para obter o compromisso armazenado.
+//FaÃ§a um programa para armazenar em uma matriz os compromissos de uma agenda pessoal. Cada dia do mÃªs deve conter 24h, onde para cada hora podemos associar uma tarefa especÃ­fica. O programa deve ter um menu onde o usuÃ¡rio indica o dia e hora que deseja alterar, entrando em seguida com o compromisso, ou entÃ£o, o usuÃ¡rio pode tambÃ©m consultar a agenda, fornecendo o dia e a hora para obter o compromisso armazenado.
 
 public class Atividade04 {
 
@@ -34,7 +34,7 @@ public class Atividade04 {
 					if (dia > 0 && dia <= 31) {
 						diaValido = true;
 					} else {
-						System.out.println("Dia inválido. Tente novamente.");
+						System.out.println("Dia invÃ¡lido. Tente novamente.");
 					}
 				}
 				while (!horaInvalida) {
@@ -44,7 +44,7 @@ public class Atividade04 {
 					if (hora >= 0 && hora <= 24) {
 						horaInvalida = true;
 					} else {
-						System.out.println("Hora inválida. Tente novamente.");
+						System.out.println("Hora invÃ¡lida. Tente novamente.");
 					}
 				}
 				dia--;
@@ -58,7 +58,7 @@ public class Atividade04 {
 					for (int j = 0; j < tarefa[i].length; j++) {
 
 						if (tarefa[i][j] != null) {
-							System.out.println("Dia " + ++i + " às " + j + "h. Tarefa: " + tarefa[i][j]);
+							System.out.println("Dia " + ++i + " Ã s " + j + "h. Tarefa: " + tarefa[i][j]);
 							System.out.println("");
 						}
 					}
@@ -66,7 +66,7 @@ public class Atividade04 {
 				break;
 
 			case 5:
-				System.out.println("Você escolheu sair.");
+				System.out.println("VocÃª escolheu sair.");
 				sair = true;
 			}
 		}

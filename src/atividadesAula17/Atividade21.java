@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//FaÁa um programa que calcule o n˙mero mÈdio de alunos por turma. Para isto, peÁa a quantidade de turmas e a quantidade de alunos para cada turma. As turmas n„o podem ter mais de 40 alunos.
+//Fa√ßa um programa que calcule o n√©mero m√©dio de alunos por turma. Para isto, pe√ßa a quantidade de turmas e a quantidade de alunos para cada turma. As turmas n√£o podem ter mais de 40 alunos.
 
 public class Atividade21 {
 
@@ -15,7 +15,7 @@ public class Atividade21 {
 
 		while (sair == false) {
 
-			System.out.println("Digite 1 para adicionar uma turma, 2 para mostrar a mÈdia de alunos e 3 para sair. 9 para resetar os dados.");
+			System.out.println("Digite 1 para adicionar uma turma, 2 para mostrar a m√©dia de alunos e 3 para sair. 9 para resetar os dados.");
 
 			escolha = leia.nextInt();
 
@@ -25,11 +25,11 @@ public class Atividade21 {
 
 				quantidadeTurmas++;
 
-				System.out.println("Digite a quantidade de alunos da " + quantidadeTurmas + "∫ turma: ");
+				System.out.println("Digite a quantidade de alunos da " + quantidadeTurmas + "¬∫ turma: ");
 				escolha = leia.nextInt();
 				//if (escolha > 40) {
 					while (escolha > 40) {
-						System.out.println("A quantidade m·xima de alunos por turma È 40. Tente novamente: ");
+						System.out.println("A quantidade m√°xima de alunos por turma √© 40. Tente novamente: ");
 						escolha = leia.nextInt();
 					}
 				//}
@@ -37,7 +37,7 @@ public class Atividade21 {
 				break;
 			case 2:
 
-				System.out.println("A mÈdia de alunos por turma È: " + (quantidadeAlunos / quantidadeTurmas));
+				System.out.println("A m√©dia de alunos por turma √©: " + (quantidadeAlunos / quantidadeTurmas));
 				System.out.println("Quantidade total de alunos...: " + quantidadeAlunos);
 				System.out.println("Quantidade total de turmas...: " + quantidadeTurmas);
 
@@ -56,7 +56,7 @@ public class Atividade21 {
 				break;
 			default:
 
-				System.out.println("Digite um n˙mero v·lido.");
+				System.out.println("Digite um n√∫mero v√°lido.");
 			}
 		}
 	}

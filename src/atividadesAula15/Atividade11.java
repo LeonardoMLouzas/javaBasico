@@ -2,13 +2,13 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-// FaÁa um programa para calcular reajustes.
-// O programa receber· o sal·rio do colaborador e calcular· o reajuste baseado nos seguintes critÈrios:
+// Fa√ßa um programa para calcular reajustes.
+// O programa receber√° o sal√°rio do colaborador e calcular√° o reajuste baseado nos seguintes crit√©rios:
 // <= R$ 280,00 : 20% de aumento
 // > R$ 280,00 > R$ 700,00 : 15% de aumento
 // > R$ 700,00 > R$ 1500,00 : 10% de aumento
 // >= R$ 1500,00 : 5%
-// Ent„o dever· ser impresso na tela as seguintes informaÁoes: Sal·rio antigo. % de aumento. Valor do aumento. Novo Sal·rio.
+// Ent√£o dever√° ser impresso na tela as seguintes informa√ßoes: Sal√°rio antigo. % de aumento. Valor do aumento. Novo Sal√°rio.
 
 public class Atividade11 {
 
@@ -16,7 +16,7 @@ public class Atividade11 {
 
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("Digite seu sal·rio: ");
+		System.out.println("Digite seu sal√°rio: ");
 		double salario = leia.nextDouble();
 		int aumento = 0;
 
@@ -34,9 +34,9 @@ public class Atividade11 {
 			
 		}
 
-		System.out.println("O sal·rio antigo era: " + salario);
-		System.out.println("O sal·rio novo È: " + ((salario / 100 * aumento) + salario));
-		System.out.println("O sal·rio teve um aumento de: " + aumento + "%");
+		System.out.println("O sal√°rio antigo era: " + salario);
+		System.out.println("O sal√°rio novo √©: " + ((salario / 100 * aumento) + salario));
+		System.out.println("O sal√°rio teve um aumento de: " + aumento + "%");
 		System.out.println("O aumento foi de: " + (((salario / 100 * aumento) + salario) - salario) + " reais");
 	}
 }

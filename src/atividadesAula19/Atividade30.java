@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Ler um vetor A com 20 elementos. Construir dois vetores B e C, sendo que nos vetor B e C ser„o armazenados o valores pares e Ìmpares de A, respectivamente.
+//Ler um vetor A com 20 elementos. Construir dois vetores B e C, sendo que nos vetor B e C ser√£o armazenados o valores pares e √≠mpares de A, respectivamente.
 
 public class Atividade30 {
 

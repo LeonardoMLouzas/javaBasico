@@ -10,9 +10,11 @@ public class Main {
         contador.mostrar();
         contador.somar();
         contador.mostrar();
+        contador.zerar();
+        contador.mostrar();
         contador.subtrair();
         contador.mostrar();
-        System.out.println("\n\n\n\n\n\n");
+        System.out.println("\n\n\n\n\n");
         /*******************************************************************/
         
         /*******************************************************************/
@@ -21,7 +23,7 @@ public class Main {
         System.out.println(Atividade02.multiplicar(1, 9));
         System.out.println(Atividade02.dividir(1, 9));
         System.out.println(Atividade02.potencia(2, 5));
-        System.out.println(Atividade02.fatorial(4));
+        System.out.println(Atividade02.fatorial(-2));
         System.out.println("\n\n\n\n\n\n");
         /*******************************************************************/
         

@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, obedecendo as seguintes regras de formaÁ„o: a) Bi dever· receber 1 quando Ai for par; b) Bi dever· receber 0 quando Ai for Ìmpar.
+//Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, obedecendo as seguintes regras de forma√ß√£o: a) Bi dever√° receber 1 quando Ai for par; b) Bi dever√° receber 0 quando Ai for √≠mpar.
 
 public class Atividade25 {
 

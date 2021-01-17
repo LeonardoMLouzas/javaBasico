@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B dever· ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I].
+//Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B dever√° ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I].
 
 public class Atividade03 {
 

@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um Programa que lê o quanto alguém ganha por hora e o número de horas trabalhadas no mês, calcule e mostre o total do salário no mês.
+// FaÃ§a um Programa que lÃª o quanto alguÃ©m ganha por hora e o nÃºmero de horas trabalhadas no mÃªs, calcule e mostre o total do salÃ¡rio no mÃªs.
 
 public class Atividade08 {
 	
@@ -9,12 +9,12 @@ public class Atividade08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite o quanto você ganha por hora: ");
+		System.out.print("Digite o quanto vocÃª ganha por hora: ");
 		double inSal = scan.nextDouble();
 		
-		System.out.print("Digite quantas horas você trabalhará no mês: ");
+		System.out.print("Digite quantas horas vocÃª trabalharÃ¡ no mÃªs: ");
 		double inHor = scan.nextDouble();
 		
-		System.out.print("Você receberá, nesse mês: " + inSal*inHor);
+		System.out.print("VocÃª receberÃ¡, nesse mÃªs: " + inSal*inHor);
 	}
 }

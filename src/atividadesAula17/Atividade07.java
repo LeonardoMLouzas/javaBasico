@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Faça um programa que leia 5 números e informe o maior número.
+//FaÃ§a um programa que leia 5 nÃºmeros e informe o maior nÃºmero.
 
 public class Atividade07 {
 
@@ -14,7 +14,7 @@ public class Atividade07 {
 		int maior = -2147483648;
 
 		for (int i = 1; i < 6; i++) {
-			System.out.println("digite o " + i + "º número:");
+			System.out.println("digite o " + i + "Âº nÃºmero:");
 			numero = leia.nextInt();
 			if (numero > maior) {
 				maior = numero;
@@ -22,6 +22,6 @@ public class Atividade07 {
 			}
 		}
 		
-		System.out.println("O maior número é: " + maior);
+		System.out.println("O maior nÃºmero Ã©: " + maior);
 	}
 }

@@ -1,7 +1,7 @@
 package atividadesAula15;
 import java.util.Scanner;
 
-// faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+// faÃ§a um programa que pergunte o preÃ§o de trÃªs produtos e informe qual produto vocÃª deve comprar, sabendo que a decisÃ£o Ã© sempre pelo mais barato.
 
 public class Atividade08 {
 
@@ -9,19 +9,19 @@ public class Atividade08 {
 
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println("Digite o valor dos três produtos:");
+		System.out.println("Digite o valor dos trÃªs produtos:");
 		Double num1 = leia.nextDouble();
 		Double num2 = leia.nextDouble();
 		Double num3 = leia.nextDouble();
 		
 		if (num1 < num2 && num1 < num3) {
-			System.out.println("Você deve comprar o de: " + num1);
+			System.out.println("VocÃª deve comprar o de: " + num1);
 			
 		} else if (num2 < num1 && num2 < num3) {
-			System.out.println("Você deve comprar o de: " + num2);
+			System.out.println("VocÃª deve comprar o de: " + num2);
 			
 		} else if (num3 < num1 && num3 < num2){
-			System.out.println("Você deve comprar o de: " + num3);
+			System.out.println("VocÃª deve comprar o de: " + num3);
 			
 		}
 	}

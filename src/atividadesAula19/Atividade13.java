@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Implementar um programa que determine a soma dos elementos armazenados neste vetor que são múltiplos de 5.
+//Criar um vetor A com 10 elementos inteiros. Implementar um programa que determine a soma dos elementos armazenados neste vetor que sÃ£o mÃºltiplos de 5.
 
 public class Atividade13 {
 
@@ -19,6 +19,6 @@ public class Atividade13 {
 				multiplos++;
 			}
 		}
-		System.out.println("\nA quantidade de números múltiplos de 5 é: " + multiplos);
+		System.out.println("\nA quantidade de nÃºmeros mÃºltiplos de 5 Ã©: " + multiplos);
 	}
 }

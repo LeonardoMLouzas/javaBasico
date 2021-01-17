@@ -1,6 +1,6 @@
 package atividadesAula27;
 
-//Crie uma classe para representar uma conta corrente que possui um n˙mero, um saldo, um limite e um status que informe se ela È especial ou n„o. Desenvolva mÈtodos para realizar saque (verificando se o cliente pode realizar saques), depositar dinheiro, consultar saldo e verificar se o cliente est· usando chege especial ou n„o. Desenvolva um programa para testar essa classe.
+//Crie uma classe para representar uma conta corrente que possui um n√∫mero, um saldo, um limite e um status que informe se ela √© especial ou n√£o. Desenvolva m√©todos para realizar saque (verificando se o cliente pode realizar saques), depositar dinheiro, consultar saldo e verificar se o cliente est√° usando chege especial ou n√£o. Desenvolva um programa para testar essa classe.
 
 public class Atividade02 {
 
@@ -17,8 +17,8 @@ public class Atividade02 {
 			saldo -= quantiaSacar;
 			return true;
 
-		} else {// N„o tem saldo na conta.
-			if (especial) {// verificar se a conta È especial e se tem limite especial.
+		} else {// N√£o tem saldo na conta.
+			if (especial) {// verificar se a conta √© especial e se tem limite especial.
 				double limite = limiteEspecial + saldo;
 				if (limite >= quantiaSacar) {
 					saldo -= quantiaSacar;
@@ -26,7 +26,7 @@ public class Atividade02 {
 				} else {
 					return false;
 				}
-			} else {// N„o È especial e n„o tem saldo.
+			} else {// N√£o √© especial e n√£o tem saldo.
 				return false;
 			}
 		}

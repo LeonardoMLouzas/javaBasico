@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra.
+//O Sr. Manoel Joaquim expandiu seus negÃ³cios para alÃ©m dos negÃ³cios de 1,99 e agora possui uma loja de conveniÃªncias. FaÃ§a um programa que implemente uma caixa registradora rudimentar. O programa deverÃ¡ receber um nÃºmero desconhecido de valores referentes aos preÃ§os das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve entÃ£o mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para entÃ£o calcular e mostrar o valor do troco. ApÃ³s esta operaÃ§Ã£o, o programa deverÃ¡ voltar ao ponto inicial, para registrar a prÃ³xima compra.
 
 public class Atividade25 {
 

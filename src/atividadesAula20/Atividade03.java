@@ -2,7 +2,7 @@ package atividadesAula20;
 
 import java.util.Scanner;
 
-//Capture do teclado, valores para preenchimento de uma matriz M 3x3. Após a captura, imprima a matriz criada e encontre a quantidade de números pares e ímpares.
+//Capture do teclado, valores para preenchimento de uma matriz M 3x3. ApÃ³s a captura, imprima a matriz criada e encontre a quantidade de nÃºmeros pares e Ã­mpares.
 
 public class Atividade03 {
 
@@ -25,7 +25,7 @@ public class Atividade03 {
 				}
 			}
 		}
-		System.out.println("Quantidade de números pares: " + par);
-		System.out.println("Quantidade de números impares: " + impar);
+		System.out.println("Quantidade de nÃºmeros pares: " + par);
+		System.out.println("Quantidade de nÃºmeros impares: " + impar);
 	}
 }

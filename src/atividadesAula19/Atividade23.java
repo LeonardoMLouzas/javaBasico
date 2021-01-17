@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Desenvolver um programa que verifique se "todos" os elementos do vetor A s„o pares. Se pelo menos um elemento do vetor n„o for par o processo de repetiÁ„o para percorrer os elementos do vetor deve ser encerrado, como sugest„o: utilize uma vari·vel do tipo flag para atingir este propÛsito.
+//Criar um vetor A com 10 elementos inteiros. Desenvolver um programa que verifique se "todos" os elementos do vetor A s√£o pares. Se pelo menos um elemento do vetor n√£o for par o processo de repeti√ß√£o para percorrer os elementos do vetor deve ser encerrado, como sugest√£o: utilize uma vari√°vel do tipo flag para atingir este prop√≥sito.
 
 public class Atividade23 {
 

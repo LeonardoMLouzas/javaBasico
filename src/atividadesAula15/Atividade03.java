@@ -2,7 +2,7 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-//FaÁa um programa que verifique se uma letra digitada È "F" ou "M". Conforme a letra, escreva: F - Feminino, M - Masculino ou Sexo inv·lido.
+//Fa√ßa um programa que verifique se uma letra digitada √© "F" ou "M". Conforme a letra, escreva: F - Feminino, M - Masculino ou Sexo inv√°lido.
 
 public class Atividade03 {
 
@@ -24,7 +24,7 @@ public class Atividade03 {
 			break;
 			
 		default:
-			System.out.println("Sexo inv·lido.");
+			System.out.println("Sexo inv√°lido.");
 			break;
 			
 		}

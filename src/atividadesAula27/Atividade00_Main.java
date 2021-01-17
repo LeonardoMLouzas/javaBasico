@@ -45,7 +45,7 @@ public class Atividade00_Main {
 			System.out.println("Saque efetuado.");
 			contaCorrente.consultarSaldo();
 		} else {
-			System.out.println("Saldo n„o realizado.");
+			System.out.println("Saldo n√£o realizado.");
 		}
 
 		contaCorrente.depositarDinheiro(50);
@@ -54,9 +54,9 @@ public class Atividade00_Main {
 
 		contaCorrente.realizarSaque(500);
 		if (contaCorrente.verificarChequeEspecial()) {
-			System.out.println("Est· usando cheque especial.");
+			System.out.println("Est√° usando cheque especial.");
 		} else {
-			System.out.println("N„o est· usando cheque especial.");
+			System.out.println("N√£o est√° usando cheque especial.");
 		}
 
 		System.out.println("\n\n\n");
@@ -68,7 +68,7 @@ public class Atividade00_Main {
 		System.out.println("Digite o nome do curso: ");
 		aluno.curso = leia.next();
 		
-		System.out.println("Digite a matrÌcula: ");
+		System.out.println("Digite a matr√≠cula: ");
 		aluno.matricula = leia.nextDouble();
 		
 		for (int i = 0; i < aluno.materias.length; i++) {

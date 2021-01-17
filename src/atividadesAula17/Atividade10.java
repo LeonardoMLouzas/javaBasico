@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+//FaÃ§a um programa que receba dois nÃºmeros inteiros e gere os nÃºmeros inteiros que estÃ£o no intervalo compreendido por eles.
 
 public class Atividade10 {
 
@@ -12,10 +12,10 @@ public class Atividade10 {
 
 		int numeroMenor, numeroMaior;
 
-		System.out.println("Digite o menor número: ");
+		System.out.println("Digite o menor nÃºmero: ");
 		numeroMenor = leia.nextInt();
 
-		System.out.println("Digite o maior número: ");
+		System.out.println("Digite o maior nÃºmero: ");
 		numeroMaior = leia.nextInt();
 
 		numeroMenor++;

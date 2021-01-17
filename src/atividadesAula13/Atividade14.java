@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê o tamanho de um arquivo para download (em MB) e a velocidade de um link de internet (em Mbps), calcule e informe o tempo
+// FaÃ§a um programa que lÃª o tamanho de um arquivo para download (em MB) e a velocidade de um link de internet (em Mbps), calcule e informe o tempo
 // aproximado de download do arquivo usando este link (em minutos).
 
 public class Atividade14 {
@@ -16,6 +16,6 @@ public class Atividade14 {
 		System.out.print("Digite a velocidade do link em MBps: ");
 		double s = scan.nextDouble();
 		
-		System.out.println("O tempo estimado para baixar o arquivo, em minutos, é: " + (t/s));
+		System.out.println("O tempo estimado para baixar o arquivo, em minutos, Ã©: " + (t/s));
 	}
 }

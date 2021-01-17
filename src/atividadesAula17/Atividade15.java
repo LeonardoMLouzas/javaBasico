@@ -1,8 +1,8 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//A série de Fibonacci é formada pela sequência 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
-//Faça um programa capaz de gerar a série até o n-ésimo termo.
+//A sÃ©rie de Fibonacci Ã© formada pela sequÃªncia 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+//FaÃ§a um programa capaz de gerar a sÃ©rie atÃ© o n-Ã©simo termo.
 
 public class Atividade15 {
 

@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-//Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+//FaÃ§a um programa que imprima na tela os nÃºmeros de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os nÃºmeros um ao lado do outro.
 
 public class Atividade06 {
 
@@ -13,7 +13,7 @@ public class Atividade06 {
 
 		while (escolha != 0) {
 
-			System.out.println("Digite 1 para um número abaixo do outro, 2 para um número ao lado do outro e 0 para sair.");
+			System.out.println("Digite 1 para um nÃºmero abaixo do outro, 2 para um nÃºmero ao lado do outro e 0 para sair.");
 			escolha = leia.nextByte();
 
 			if (escolha == 1) {
@@ -31,7 +31,7 @@ public class Atividade06 {
 				System.out.println("");
 
 			} else {
-				System.out.println("Você escolheu sair.");			
+				System.out.println("VocÃª escolheu sair.");			
 				
 			}
 		}

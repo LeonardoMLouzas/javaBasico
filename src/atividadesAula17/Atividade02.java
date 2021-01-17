@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-// FaÁa um programa que leia um nome de usu·rio e sua senha e n„o aceite a senha igual ao usu·rio, mostrando uma mensagem de erro e voltando a pedir as informaÁıes.
+// Fa√ßa um programa que leia um nome de usu√°rio e sua senha e n√£o aceite a senha igual ao usu√°rio, mostrando uma mensagem de erro e voltando a pedir as informa√ß√µes.
 
 public class Atividade02 {
 
@@ -14,13 +14,13 @@ public class Atividade02 {
 
 		do {
 
-			System.out.println("Digite o seu usu·rio: ");
+			System.out.println("Digite o seu usu√°rio: ");
 			user = leia.nextInt();
 			System.out.println("Digite sua senha: ");
 			senha = leia.nextInt();
 
 			if (user == senha) {
-				System.out.println("Usu·rio e senha n„o podem ser iguais.");
+				System.out.println("Usu√°rio e senha n√£o podem ser iguais.");
 
 			} else {
 				System.out.println("Logado com sucesso.");

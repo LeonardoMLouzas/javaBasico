@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem. 
+//FaÃ§a um programa que peÃ§a dois nÃºmeros, base e expoente, calcule e mostre o primeiro nÃºmero elevado ao segundo nÃºmero. NÃ£o utilize a funÃ§Ã£o de potÃªncia da linguagem. 
 
 public class Atividade13 {
 
@@ -22,6 +22,6 @@ public class Atividade13 {
 			total += base;
 		}
 		
-		System.out.println("O resultado é: " + total);
+		System.out.println("O resultado Ã©: " + total);
 	}
 }

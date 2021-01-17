@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//riar um vetor A com 10 elementos inteiros. Escreva um programa que imprima cada elemento do vetor A e uma mensagem indicando se o respectivo elemento é um número primo ou não.
+//riar um vetor A com 10 elementos inteiros. Escreva um programa que imprima cada elemento do vetor A e uma mensagem indicando se o respectivo elemento Ã© um nÃºmero primo ou nÃ£o.
 
 public class Atividade33 {
 
@@ -18,9 +18,9 @@ public class Atividade33 {
 					primo = false;
 			}
 			if (primo == true) {
-				System.out.println("O número " + a[i] + " é primo.");
+				System.out.println("O nÃºmero " + a[i] + " Ã© primo.");
 			} else {
-				System.out.println("O número " + a[i] + " não é primo.");
+				System.out.println("O nÃºmero " + a[i] + " nÃ£o Ã© primo.");
 			}
 		}
 	}

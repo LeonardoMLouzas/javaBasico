@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Desenvolver um programa que defina o percentual de elementos pares e ímpares, respectivamente, armazenados neste vetor.
+//Criar um vetor A com 10 elementos inteiros. Desenvolver um programa que defina o percentual de elementos pares e Ã­mpares, respectivamente, armazenados neste vetor.
 
 public class Atividade15 {
 
@@ -22,7 +22,7 @@ public class Atividade15 {
 				par++;
 			}
 		}
-		System.out.println("\nA porcentagem de números pares: " + (par / a.length) * 100 + "%");
-		System.out.println("A porcentagem de números impar: " + (impar / a.length) * 100 + "%");
+		System.out.println("\nA porcentagem de nÃºmeros pares: " + (par / a.length) * 100 + "%");
+		System.out.println("A porcentagem de nÃºmeros Ã­mpares: " + (impar / a.length) * 100 + "%");
 	}
 }

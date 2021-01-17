@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Ler um vetor A com 20 elementos. Separar os elementos pares e Ìmpares de A utilizando apenas um vetor extra B. Sugest„o: no inÌcio do vetor B armazene os elementos pares de A e nas posiÁıes restantes do vetor B armazene os elementos de A que s„o Ìmpares.
+//Ler um vetor A com 20 elementos. Separar os elementos pares e √≠mpares de A utilizando apenas um vetor extra B. Sugest√£o: no in√≠cio do vetor B armazene os elementos pares de A e nas posi√ß√µes restantes do vetor B armazene os elementos de A que s√£o √≠mpares.
 
 public class Atividade31 {
 

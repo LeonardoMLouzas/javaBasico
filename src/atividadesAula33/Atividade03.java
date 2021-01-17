@@ -22,7 +22,7 @@ public class Atividade03 {
         this.aprovado = aprovado;
         this.total = total;
         materias = new String[3];
-        this.notas = new double[3][4]
+        this.notas = new double[3][4];
     }
 
 	public void mostrarInformacoes() {

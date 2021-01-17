@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs e o valor médio gasto em cada um deles. O usuário deverá informar a quantidade de CDs e o valor para em cada um.
+//FaÃ§a um programa que calcule o valor total investido por um colecionador em sua coleÃ§Ã£o de CDs e o valor mÃ©dio gasto em cada um deles. O usuÃ¡rio deverÃ¡ informar a quantidade de CDs e o valor para em cada um.
 
 public class Atividade22 {
 
@@ -10,14 +10,14 @@ public class Atividade22 {
 		Scanner leia = new Scanner(System.in);
 		
 		int valor =0;
-		System.out.println("Quantos CDs você possui?");
+		System.out.println("Quantos CDs vocÃª possui?");
 		int quantidade = leia.nextInt();
 		
 		for (int i = 1; i <= quantidade; i++) {
 			
-			System.out.println("Digite quanto pagou no " + i + "º CD: ");
+			System.out.println("Digite quanto pagou no " + i + "Âº CD: ");
 			valor += leia.nextInt();			
 		}
-		System.out.println("Você gastou ao todo " + valor + " reais. O valor médio é: " + (valor/quantidade) + " reais.");
+		System.out.println("VocÃª gastou ao todo " + valor + " reais. O valor mÃ©dio Ã©: " + (valor/quantidade) + " reais.");
 	}
 }

@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Faça um programa que leia 5 números e informe a soma e a média dos números.
+//FaÃ§a um programa que leia 5 nÃºmeros e informe a soma e a mÃ©dia dos nÃºmeros.
 
 public class Atividade08 {
 
@@ -13,14 +13,14 @@ public class Atividade08 {
 		double total = 0;
 		
 		for (int i=1; i<6; i++) {
-			System.out.println("Digite o " + i + "º número: ");
+			System.out.println("Digite o " + i + "Âº nÃºmero: ");
 			numero = leia.nextInt();
 			total += numero;
 			
 		}
 		
-		System.out.println("A soma deles é: " + total);
-		System.out.println("A média deles é: " + total/5);
+		System.out.println("A soma deles Ã©: " + total);
+		System.out.println("A mÃ©dia deles Ã©: " + total/5);
 
 	}
 }

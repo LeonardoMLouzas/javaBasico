@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que j· È um sucesso na sua loja de 1,99. VocÍ foi contratado para desenvolver o programa que monta a tabela de preÁos de p„es, de 1 atÈ 50 p„es, a partir do preÁo do p„o informado pelo usu·rio.
+//O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que j√° √© um sucesso na sua loja de 1,99. Voc√™ foi contratado para desenvolver o programa que monta a tabela de pre√ßos de p√£es, de 1 at√© 50 p√£es, a partir do pre√ßo do p√£o informado pelo usu√°rio.
 
 public class Atividade24 {
 	
@@ -9,14 +9,14 @@ public class Atividade24 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.print("Digite o preÁo do p„o: ");
-		double preÁo = leia.nextDouble();
+		System.out.print("Digite o pre√ßo do p√£o: ");
+		double pre√ßo = leia.nextDouble();
 		
-		System.out.println("Panificadora P„o de Ontem - Tabela de PreÁos");
+		System.out.println("Panificadora P√£o de Ontem - Tabela de Pre√ßos");
 		
 		for (int i = 0; i <= 50; i++) {
 			
-			System.out.println(i + " - R$ " + (i*preÁo));
+			System.out.println(i + " - R$ " + (i*pre√ßo));
 		}
 	}
 }

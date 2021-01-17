@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//riar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C È a divis„o dos respectivos elementos em A e B, ou seja: C[i] = A[i] / float(B[i]).
+//riar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C √© a divis√£o dos respectivos elementos em A e B, ou seja: C[i] = A[i] / float(B[i]).
 
 public class Atividade09 {
 

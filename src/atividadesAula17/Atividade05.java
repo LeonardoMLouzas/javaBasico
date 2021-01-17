@@ -2,7 +2,7 @@ package atividadesAula17;
 
 import java.util.Scanner;
 
-// Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
+// Altere o programa anterior permitindo ao usuÃ¡rio informar as populaÃ§Ãµes e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operaÃ§Ã£o.
 
 public class Atividade05 {
 
@@ -18,17 +18,17 @@ public class Atividade05 {
 		int escolha = 1;
 
 		while (escolha != 0) {
-			System.out.println("Digite 0 para sair ou outro número para continuar: ");
+			System.out.println("Digite 0 para sair ou outro nÃºmero para continuar: ");
 			escolha = leia.nextInt();
 
 			if (escolha != 0) {
-				System.out.println("Digite a população do A: ");
+				System.out.println("Digite a populaÃ§Ã£o do A: ");
 				popA = leia.nextDouble();
 
 				System.out.println("Digite o crescimento do A: ");
 				crescimentoPopulacaoA = leia.nextDouble();
 
-				System.out.println("Digite a população do B: ");
+				System.out.println("Digite a populaÃ§Ã£o do B: ");
 				popB = leia.nextDouble();
 
 				System.out.println("Digite o crescimento do B: ");
@@ -41,12 +41,12 @@ public class Atividade05 {
 					
 				}
 				
-				System.out.println("Total de anos para a população A alcançar a população B: " + anos);
-				System.out.println("Total da população A: " + popA);
-				System.out.println("Total da população B: " + popB);
+				System.out.println("Total de anos para a populaÃ§Ã£o A alcanÃ§ar a populaÃ§Ã£o B: " + anos);
+				System.out.println("Total da populaÃ§Ã£o A: " + popA);
+				System.out.println("Total da populaÃ§Ã£o B: " + popB);
 			}
 		}
 		
-		System.out.println("Você escolheu sair.");
+		System.out.println("VocÃª escolheu sair.");
 	}
 }

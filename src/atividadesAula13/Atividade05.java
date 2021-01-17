@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-//Faça um programa que converta metros para centímetros.
+//Faa um programa que converta metros para centÃ­metros.
 
 public class Atividade05 {
 	
@@ -12,6 +12,6 @@ public class Atividade05 {
 		System.out.print("Digite os metros: ");
 		double n1 = scan.nextDouble();
 		
-		System.out.print("O valor em centímetros é: " + n1*100);
+		System.out.print("O valor em centÃ­metros Ã©: " + n1*100);
 	}
 }

@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
+//O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a mÃ©dia das temperaturas.
 
 public class Atividade27 {
 
@@ -38,9 +38,9 @@ public class Atividade27 {
 				break;
 			case 2:
 				
-				System.out.println("A maior temperatura registrada é.......: " + temperaturaMaxima);
-				System.out.println("A menor temperatura registrada é.......: " + temperaturaMinima);
-				System.out.println("A temperatura média registrada é.......: " + temperaturaTotal/temperaturaQuantidade);
+				System.out.println("A maior temperatura registrada Ã©.......: " + temperaturaMaxima);
+				System.out.println("A menor temperatura registrada Ã©.......: " + temperaturaMinima);
+				System.out.println("A temperatura mÃ©dia registrada Ã©.......: " + temperaturaTotal/temperaturaQuantidade);
 				System.out.println("A quantidade de temperaturas informadas: " + temperaturaQuantidade);
 				break;
 			case 9:

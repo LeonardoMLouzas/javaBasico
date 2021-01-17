@@ -2,7 +2,7 @@ package atividadesAula20;
 
 import java.util.Scanner;
 
-//Modifique o programa anterior de maneira a guardar as tarefas de todo o ano, organizando por mês, dia e hora (8 horas por dia).
+//Modifique o programa anterior de maneira a guardar as tarefas de todo o ano, organizando por mÃªs, dia e hora (8 horas por dia).
 
 public class Atividade05 {
 
@@ -27,13 +27,13 @@ public class Atividade05 {
 				boolean mesValido = false, diaValido = false, horaInvalida = false;
 
 				while (!mesValido) {
-					System.out.println("Qual o mês da tarefa? ");
+					System.out.println("Qual o mÃªs da tarefa? ");
 					mes = leia.nextInt();
 
 					if (mes > 0 && mes <= 12) {
 						mesValido = true;
 					} else {
-						System.out.println("Mês inválido. Tente novamente.");
+						System.out.println("MÃªs invÃ¡lido. Tente novamente.");
 					}
 				}
 				while (!diaValido) {
@@ -43,7 +43,7 @@ public class Atividade05 {
 					if (dia > 0 && dia <= 31) {
 						diaValido = true;
 					} else {
-						System.out.println("Dia inválido. Tente novamente.");
+						System.out.println("Dia invÃ¡lido. Tente novamente.");
 					}
 				}
 				while (!horaInvalida) {
@@ -53,7 +53,7 @@ public class Atividade05 {
 					if (hora >= 0 && hora <= 8) {
 						horaInvalida = true;
 					} else {
-						System.out.println("Hora inválida. Tente novamente.");
+						System.out.println("Hora invÃ¡lida. Tente novamente.");
 					}
 				}
 				System.out.println("Digite a tarefa: ");
@@ -67,7 +67,7 @@ public class Atividade05 {
 						for (int k = 0; k < tarefa[i][j].length; k++) {
 
 							if (tarefa[i][j][k] != null) {
-								System.out.println("Mês " + ++i + " dia " + ++j + " às " + ++k + "h. Tarefa: " + tarefa[i][j][k]);
+								System.out.println("MÃªs " + ++i + " dia " + ++j + " Ã s " + ++k + "h. Tarefa: " + tarefa[i][j][k]);
 								System.out.println("");
 							}
 						}
@@ -76,7 +76,7 @@ public class Atividade05 {
 				break;
 
 			case 5:
-				System.out.println("Você escolheu sair.");
+				System.out.println("VocÃª escolheu sair.");
 				sair = true;
 			}
 		}

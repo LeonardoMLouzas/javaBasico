@@ -1,6 +1,6 @@
 package atividadesAula27;
 
-//Escreva uma classe para representar uma lâmpada. Desenvolva métodos para ligar e desligar a lâmpada.
+//Escreva uma classe para representar uma lÃ¢mpada. Desenvolva mÃ©todos para ligar e desligar a lÃ¢mpada.
 
 public class Atividade01 {
 
@@ -19,9 +19,9 @@ public class Atividade01 {
 	void mostrarEstado() {
 
 		if (ligada) {
-			System.out.println("Lâmpada ligada.");
+			System.out.println("LÃ¢mpada ligada.");
 		} else {
-			System.out.println("Lâmpada desligada.");
+			System.out.println("LÃ¢mpada desligada.");
 		}
 	}
 

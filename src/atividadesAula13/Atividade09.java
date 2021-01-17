@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê a temperatuta em Fahrenheit e mostre a mesma temperatura em Celsius. C = (5*(F-32)/9)
+// FaÃ§a um programa que lÃª a temperatuta em Fahrenheit e mostre a mesma temperatura em Celsius. C = (5*(F-32)/9)
 
 public class Atividade09 {
 	
@@ -12,6 +12,6 @@ public class Atividade09 {
 		System.out.print("Digite a temperatura em Fahrenheit: ");
 		double f = scan.nextDouble();
 		
-		System.out.print("A temperatura em Celsius é: "+ (5*(f-32)/9));
+		System.out.print("A temperatura em Celsius Ã©: "+ (5*(f-32)/9));
 	}
 }

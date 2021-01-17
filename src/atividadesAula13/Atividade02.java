@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-//Faça um programa que peça um número e então mostre a mensagem: "O número informado foi: [x]."
+//FaÃ§a um programa que peÃ§a um nÃºmero e entÃ£o mostre a mensagem: "O nÃºmero informado foi: [x]."
 
 public class Atividade02 {
 	
@@ -9,9 +9,9 @@ public class Atividade02 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite o número: ");
+		System.out.print("Digite o nÃºmero: ");
 		int num = scan.nextInt();
 	
-		System.out.printf("O número informado foi: " + num);
+		System.out.printf("O nÃºmero informado foi: " + num);
 	}
 }

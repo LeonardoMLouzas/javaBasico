@@ -1,8 +1,8 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//.Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10.
-//O usuário deve informar de qual numero ele deseja ver a tabuada.
+//.Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer nÃºmero inteiro entre 1 a 10.
+//O usuÃ¡rio deve informar de qual numero ele deseja ver a tabuada.
 
 public class Atividade12 {
 
@@ -10,7 +10,7 @@ public class Atividade12 {
 
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println("Digite o número da tabuada que deseja ver:");
+		System.out.println("Digite o nÃºmero da tabuada que deseja ver:");
 		int escolha = leia.nextInt();
 		
 		for (int i =0; i < 11; i++) {

@@ -1,7 +1,7 @@
 package atividadesAula13;
 import java.util.Scanner;
 
-// Faça um programa que lê 4 notas de um aluno e imprima a média delas.
+// FaÃ§a um programa que lÃª 4 notas de um aluno e imprima a mÃ©dia delas.
 
 public class Atividade04 {
 	
@@ -21,6 +21,6 @@ public class Atividade04 {
 		System.out.print("Digite a quarta nota: ");
 		double n4 = scan.nextDouble();
 		
-		System.out.println("A média é: " + ((n1+n2+n3+n4)/4));
+		System.out.println("A mÃ©dia Ã©: " + ((n1+n2+n3+n4)/4));
 	}
 }

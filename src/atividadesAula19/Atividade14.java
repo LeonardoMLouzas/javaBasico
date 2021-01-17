@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a média aritmética simples dos elementos ímpares armazenados neste vetor.
+//Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a mÃ©dia aritmÃ©tica simples dos elementos Ã­mpares armazenados neste vetor.
 
 public class Atividade14 {
 
@@ -19,7 +19,7 @@ public class Atividade14 {
 				impar++;
 			}
 		}
-		System.out.println("\nA quantidade de números ímpar: " + impar + ". A média é: " + a.length/impar);
+		System.out.println("\nA quantidade de nÃºmeros Ã­mpar: " + impar + ". A mÃ©dia Ã©: " + a.length/impar);
 		
 	}
 }

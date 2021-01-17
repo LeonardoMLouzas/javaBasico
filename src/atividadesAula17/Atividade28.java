@@ -1,7 +1,7 @@
 package atividadesAula17;
 import java.util.Scanner;
 
-//Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
+//Os nÃºmeros primos possuem vÃ¡rias aplicaÃ§Ãµes dentro da ComputaÃ§Ã£o, por exemplo na Criptografia. Um nÃºmero primo Ã© aquele que Ã© divisÃ­vel apenas por um e por ele mesmo. FaÃ§a um programa que peÃ§a um nÃºmero inteiro e determine se ele Ã© ou nÃ£o um nÃºmero primo.
 
 public class Atividade28 {
 
@@ -11,7 +11,7 @@ public class Atividade28 {
 
 		boolean primo = true;
 
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		int numero = leia.nextInt();
 
 		for (int j = 2; j < numero; j++) {
@@ -19,10 +19,10 @@ public class Atividade28 {
 				primo = false;
 		}
 		if (primo == true) {
-			System.out.println("O número é primo.");
+			System.out.println("O nÃºmero Ã© primo.");
 
 		} else {
-			System.out.println("O número não é primo.");
+			System.out.println("O nÃºmero nÃ£o Ã© primo.");
 			
 		}
 	}

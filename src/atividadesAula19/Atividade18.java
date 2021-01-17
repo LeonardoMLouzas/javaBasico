@@ -1,6 +1,6 @@
 package atividadesAula19;
 
-//Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas. Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
+//Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas. Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posiÃ§Ãµes.
 
 public class Atividade18 {
 
@@ -27,7 +27,7 @@ public class Atividade18 {
 				menorPosicao = i;
 			}
 		}
-		System.out.println("\nMaior: " + a[maiorPosicao] + " posição: " + maiorPosicao);
-		System.out.println("Menor: " + a[menorPosicao] + " posição: " + menorPosicao);
+		System.out.println("\nMaior: " + a[maiorPosicao] + " posiÃ§Ã£o: " + maiorPosicao);
+		System.out.println("Menor: " + a[menorPosicao] + " posiÃ§Ã£o: " + menorPosicao);
 	}
 }

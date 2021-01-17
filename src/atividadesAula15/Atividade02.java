@@ -2,7 +2,7 @@ package atividadesAula15;
 
 import java.util.Scanner;
 
-//Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+//FaÃ§a um programa que peÃ§a um valor e mostre na tela se o valor Ã© positivo ou negativo.
 
 public class Atividade02 {
 
@@ -10,17 +10,17 @@ public class Atividade02 {
 
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		double numero = leia.nextDouble();
 
 		if (numero > 0) {
-			System.out.println("O número é positivo.");
+			System.out.println("O nÃºmero Ã© positivo.");
 			
 		} else if (numero < 0) {
-			System.out.println("O número é negativo.");
+			System.out.println("O nÃºmero Ã© negativo.");
 			
 		} else {
-			System.out.println("O número é zero.");
+			System.out.println("O nÃºmero Ã© zero.");
 			
 		}
 	}
